@@ -14,7 +14,7 @@ async def on_ready():
 async def on_message(message):
     if message.content.startswith('/jinro'):
         sendmsg = 'none'
-        if message.author.display_name == 'かなむら':
+        if message.author.display_name == 'Write your dispay name(if you want)':
             num = 0 #number of members
             online=[] #online member
             for member in client.get_all_members():        
